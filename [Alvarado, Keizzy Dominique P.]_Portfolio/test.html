@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href=" ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+<style>
+  .floating-text {
+    position: relative; /* Essential for positioning relative to its normal position */
+    animation: floatAnimation 3s infinite alternate ease-in-out; /* Apply the animation */
+  }
+
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0); /* Start at original position */
+    }
+    50% {
+      transform: translateY(-10px); /* Move up 10 pixels */
+    }
+    100% {
+      transform: translateY(0); /* Return to original position */
+    }
+  }
+</style>
+
+<p class="floating-text">This text appears to float.</p>
+</body>
+</html>

@@ -1,0 +1,685 @@
+body {
+    background-color: #FFF2EF;
+}
+
+.navbar {
+    display: flex;
+    flex: 1 1 1;
+    background-color: #232938;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    margin: -10px;
+    padding: 15px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+}
+
+.home-title {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin: 10px 0px 0px 10px;
+    color: white;
+}
+
+.name {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0px 0px 0px 10px;
+    color: white;
+}
+
+.right-navbar {
+    margin-left: 600px;
+    flex-shrink: 0;
+    text-align: right;
+    right: -1;
+    align-items: end;
+    justify-content: end;
+}
+
+.all-left-navbar {
+    align-items: left;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.navi {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    background-color: #232938;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    margin-left: -40px;
+}
+
+ul li ul.dropdown {
+    width: 250px;
+    position: absolute;
+    background-color: #232938;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: #3bc5c5;
+    transition: ease 0.5s;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    transition: ease 0.5s;
+}
+
+.home-body {
+    display: flex;
+    margin: 50px -10px 0px -10px;
+    flex: 300px 1;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-desc {
+    width: 1000px;
+}
+
+.welcome-text {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+    color: #382c2a;
+}
+
+.home-text {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #382c2a;
+}
+
+.aboutme-redirect {
+    background-color: #232938;
+    width: 260px;
+    padding: 15px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.aboutme-redirect:hover {
+    background-color: #3bc5c5;
+    transition: ease 0.9;
+}
+
+.no-deco {
+   text-decoration: none;
+    color: white;
+}
+
+.PFP {
+    width: 500px;
+    margin-left: 100px;
+    border-radius: 400px;
+    border: solid #382c2a ;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background: #232938;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 100px -10px -10px -10px;
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    margin-top: 10px;
+}
+
+.footer-sec {
+    display: flex;
+    align-items: center;
+}
+
+.footer-sec img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+/* Resume Page */
+
+embed {
+    width: 80%;
+    height: 1000px;
+    margin: 45px;
+    border: solid #232938 4px;
+}
+
+.pdf {
+    text-align: center;
+ 
+}
+
+/* About Me Page */
+
+.aboutme-title {
+    font-family: "Source Code Pro", monospace;
+    font-size: 50px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.aboutme-desc {
+    font-family: "Source Code Pro", monospace;
+    width: 1000px;
+    display: inline-block;
+    font-size: 30px;
+    background-color: bisque;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.abtcenter {
+    text-align: center;
+}
+
+.aboutme-infotitle {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+    background-color: #232938;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.aboutme-info {
+    font-family: "Source Code Pro", monospace;  
+    font-weight: 400;
+    font-size: 20px;
+    color: #232938;
+    display: inline-block;
+    padding: 5px;
+}
+
+.overview-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 10px 50px 10px;
+    margin-right: 30px;
+}
+
+.all-ov-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
+}
+
+.aboutme-float {
+    font-family: "Source Code Pro", monospace;
+    color: #232938;
+    background-color: white;
+    display: inline-block;
+    padding: 15px;
+    border: solid #232938 3px;
+    border-radius: 30px;
+    animation: floatAnimation ease-in-out infinite alternate 3s;
+    margin-bottom: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Academic Achievements Page*/
+
+.acad-time-text {
+ font-family: "Source Code Pro", monospace;
+ font-size: 50px;
+ text-align: center;
+ margin-top: 100px;
+ animation: floatAnimation ease-in-out infinite alternate 3s;
+}
+
+@keyframes floatAnimation {
+    0% {
+      transform: translateY(0); 
+    }
+    50% {
+      transform: translateY(-10px); 
+    }
+    100% {
+      transform: translateY(0); 
+    }
+}
+
+.timeline-AA {
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.container-AA {
+    padding: 10px 50px;
+    position: relative;
+    width: 42%;
+}
+
+.textbox-AA {
+    padding: 20px 30px;
+    background: #232938;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+}
+
+.left-container-AA {
+    left: -5px;
+}
+
+.right-container-AA {
+    left: 50%;
+}
+
+.container-AA img {
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+
+.right-container-AA img {
+    left: -20px;
+}
+
+.timeline-AA::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #232938;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
+
+.textbox-AA h2 {
+    font-weight: 600;
+}
+
+.textbox-AA small {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.left-container-AA-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #232938;
+    right: -15px;
+}
+
+.right-container-AA-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #232938;
+    left: -15px;
+}
+
+/* Skills Page */
+
+.skill-matrix, tr, th, td {
+    border: #232938 1px solid;
+    padding: 15px;
+}
+
+.skill-matrix {
+    display: flex;
+    border: #232938 2px solid;
+    font-family: "Source Code Pro", monospace;
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.skill-matrix tr th {
+    font-size: 30px;
+    background-color: #232938;
+    color: white;
+}
+
+.skill-matrix tr td {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.skill-matrix tr .three {
+    background-color: #c5c33b;
+}
+
+.skill-matrix tr .four {
+    background-color: #aada74;
+}
+
+.skill-matrix tr .five {
+    background-color: #21dd3a;
+}
+
+.skills-text {
+    font-family: "Source Code Pro", monospace;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 150px 150px 75px 150px;
+}
+
+/* Gallery Page */
+
+.gallery-title {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+    margin: 100px 50px 100px 50px;
+    font-size: 60px;
+    background-color: #232938;
+    color: white;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.center-gal {
+    text-align: center;
+}
+
+.whole-gal {
+    margin-bottom: 200px;
+}
+
+hr {
+    width: 75%;
+    margin-top: 0;
+    background-color: #232938;
+    height: 3px;
+}
+
+.pic-row {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.pic-row img {
+    object-fit: cover;
+    margin: 15px;
+}
+
+.vertical-pic {
+    height: 400px;
+    width: 300px;
+}
+
+.horizontal-pic {
+    height: 400px;
+    width: 700px;
+}
+
+.circle {
+    border-radius: 50%; 
+    margin-right: 50px;
+    border: solid #232938 6px;
+    width: 500px;
+    height: auto;
+}
+
+.gitna {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: solid #232938 6px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.art {
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+/* Projects Page */
+
+.project-vid {
+    margin: 100px 30px 30px 30px;
+}
+
+.proj-title {
+    font-family: "Source Code Pro", monospace;
+    text-align: left;
+    margin: 0px 100px 100px 100px;
+    font-weight: 700;
+}
+
+.proj-text {
+    font-family: "Source Code Pro", monospace;
+    text-decoration: underline;
+}
+
+/* Contacts Page */
+
+.form {
+    background-color: #fcd9d9;
+    margin: 0 150px 150px 150px;
+    border-radius: 30px;
+}
+
+.form-title {
+    text-align: center;
+    margin: 100px 70px 70px 70px;
+    padding-top: 40px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 70px;
+}
+
+.form-desc {
+    text-align: center;
+    margin: 100px 70px 20px 70px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 30px;
+}
+
+.form-buttons {
+    text-align: center;
+    margin: 0 70px 70px 70px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 30px;
+    background-color: #232938;
+    color: white;
+    width: 800px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.form-text input {
+    margin: 20px;
+    width: 700px;
+    text-align: left;
+    background-color: #fff5eb;
+    border-radius: 15px;
+    height: 40px;
+}
+
+.form-submit {
+font-family: "Source Code Pro", monospace;
+font-size: 40px;
+margin-bottom: 40px;
+padding: 15px;
+border-radius: 15px;
+background-color: #232938;
+color: white;
+}
+
+/* Professional Experience Page*/
+
+.work-body {
+    display: flex;
+    margin: 100px 30px 30px 30px;
+    width: 1500px;
+    background-color: #232938;
+    padding: 50px;
+    border-radius: 16px;
+}
+
+.work-imm {
+    font-size: 60px;
+}
+
+.work-desc {
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+    padding: 120px;
+    color: white;
+}
+
+.work-pic {
+    width: 400px;
+    border-radius: 200px;
+    border: solid #fcd9d9 3px;
+}
+
+/* Extracurriculars and Leadership */
+
+.extra-title {
+    font-family: "Source Code Pro", monospace;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.choir {
+    display: flex;
+    background-color: #232938;
+    margin: 100px 40px 40px 40px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.research {
+    display: flex;
+    background-color: #232938;
+    margin: 100px 40px 40px 40px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.exp-text {
+    font-family: "Source Code Pro", monospace;
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 70px 30px 30px;
+    width: 1000px;
+}
+
+.exp-pic {
+    width: 600px;
+    border: #fff5eb solid 3px;
+    border-radius: 15px;
+}

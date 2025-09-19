@@ -1,0 +1,96 @@
+body {
+    background-color: #FFF2EF;
+}
+
+.navbar {
+    display: flex;
+    background-color: #232938;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: -10px;
+    padding: 15px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+}
+
+.home-title {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin: 10px 0px 0px 10px;
+    color: white;
+}
+
+.name {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0px 0px 0px 10px;
+    color: white;
+}
+
+.right-navbar {
+    margin-left: 600px;
+    flex-shrink: 0;
+}
+
+.navi {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    background-color: #232938;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    margin-left: -40px;
+}
+
+ul li ul.dropdown {
+    width: 250px;
+    position: absolute;
+    background-color: #232938;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: #3bc5c5;
+    transition: ease 0.5s;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    transition: ease 0.5s;
+}
+
+
+
+
